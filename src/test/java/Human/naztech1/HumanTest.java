@@ -14,30 +14,6 @@ import java.util.Map;
 import org.junit.Test;
 
 public class HumanTest {
-	@Test
-	public void testMapSortByName()
-	{
-		Map<Integer,Human>map=unSortedMap();
-		Collections.synchronizedMap(map);
-		assertEquals(nameSortedList(), map);
-		for (int keys : map.keySet())
-		{
-		   System.out.println(keys);
-		}		
-	}
-	public void testMapSortByAge()
-	{
-		
-	}
-	public void testMapSortBySalary()
-	{
-		
-	}
-	public void testMapByBirthdate() 
-	{
-		
-	}
-
 
 	@Test
 	
